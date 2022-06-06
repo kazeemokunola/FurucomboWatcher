@@ -2,7 +2,7 @@ const Web3 = require('web3');
 
 // initialise nodeJS bot
 const 
-web3 = new Web3(new Web3.providers.HttpProvider);
+web3 = new Web3HttpProvider('http://localhost:8545', options);
 const furucomboProxyContract = '0x17e8Ca1b4798B97602895f63206afCd1Fc90Ca5f'.toLowerCase();
 
 // initialise parameters for 1inch dex aggregator
