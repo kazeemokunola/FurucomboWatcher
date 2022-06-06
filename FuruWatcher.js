@@ -2,7 +2,7 @@ const Web3 = require('web3');
 
 // initialise nodeJS bot
 const 
-web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/));
+web3 = new Web3(new Web3.providers.HttpProvider);
 const furucomboProxyContract = '0x17e8Ca1b4798B97602895f63206afCd1Fc90Ca5f'.toLowerCase();
 
 // initialise parameters for 1inch dex aggregator
